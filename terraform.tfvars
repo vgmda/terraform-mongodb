@@ -1,0 +1,8 @@
+atlas_org_id = "63b6e662801bbd058271b4ae"
+atlas_project_name = "terraform-project"
+environment = "dev"
+cluster_instance_size_name = "M0"
+cloud_provider = "AWS"
+atlas_region = "EU_WEST_1"
+mongodb_version = "7.0"
+ip_address = "104.30.134.191"
