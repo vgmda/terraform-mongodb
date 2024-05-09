@@ -26,3 +26,26 @@ resource "mongodbatlas_project_ip_access_list" "ip" {
   ip_address = var.ip_address
 }
 
+# Cluster Instance Size Name 
+variable "cluster_instance_size_name" {
+  type        = string
+  description = "Cluster instance size name"
+}
+
+# Cloud Provider to Host Atlas Cluster
+variable "cloud_provider" {
+  type        = string
+  description = "AWS or GCP or Azure"
+}
+
+# Atlas Region
+variable "atlas_region" {
+  type        = string
+  description = "Atlas region where resources will be created"
+}
+
+# MongoDB Version 
+variable "mongodb_version" {
+  type        = string
+  description = "MongoDB Version"
+}
